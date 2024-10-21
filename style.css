@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh; 
+   overflow: hidden;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.container {
+    height: 80vh; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    padding: 40px 30px;
+    margin-top: -10px;
+    width: 110%;
+}
+
+.logo img {
+    width: 45px;
+    height: auto;
+    margin-right: 50px;
+    justify-content: flex-start;
+}
+
+.line {
+    height: 1px;
+    width: 35%;
+    background-color: rgb(111, 108, 108);
+    margin: 0 50px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+    margin-top: 18px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline; 
+    text-underline-offset: 30px;
+}
+
+.navbar a span {
+    margin-right: 10px;
+}
+.links-box{
+    width: 1000px;
+    height: 65px;
+    justify-content: center;
+    text-align: center;
+    background:linear-gradient(to right,  rgb(141, 140, 156),rgb(147, 138, 191)) 
+    padding :10px; 
+    backdrop-filter: blur(13px); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
+}
+.space {
+    width: 500px;
+    height: 800px;
+    margin-top: 325px;
+    margin-left: 250px;
+    
+}
+
+.space p{
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.space h1 {
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 160px;
+}
+.p2{
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    
+
+}
+
+.explore {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 1325px;
+    right: 300px;
+}
+
+.text {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.title-destination{
+    display: flex;
+    text-align: start;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+.second-page-img {
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 350px;  
+}
+.spaces-links{
+    display: flex;
+    justify-content:center;
+   
+    margin-top: -500px;
+    list-style: none;
+    margin-left: 500px;
+}
+.spaces-links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 15px; 
+  }
+.title-destination{
+    word-spacing: 20px;
+   margin-left: 165px;
+}
+.mars-img{
+    margin-left: 150px;
+    margin-top: 80px;
+    
+}
+.second-page-img {
+    width: 425px;
+}
+.spaces-links {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .spaces-links li {
+    display: inline-block; 
+    margin-right: 40px; 
+  }
+  
+  .spaces-links a {
+    text-decoration: none; 
+    color: #fff; 
+    
+    font-size: 16px; 
+  }
+  
+  .spaces-links a:hover {
+    text-decoration: underline; 
+  }
+ 
+.mars-destination {
+        width: 500px;
+        height: 800px;
+        margin-top: 20px;
+        margin-left: 1030px;
+        
+}
+.mars-destination h1 {
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 100px;
+}
+    
+.mars-destination p{
+        display: flex;
+        color: white;
+        left: 40px;
+        top: 50px;
+        margin-bottom: 20px;
+       
+        font-size: 22px;
+        line-height: 1.5;
+}
+.custom-line {
+    width: 100%;                 
+    height: 1px;                 
+    background-color: rgb(111, 108, 108);   
+    margin-top: 70px;            
+    margin-bottom: 20px;         
+}
+   
+.info-container {
+    display: flex;                
+    justify-content: space-between; 
+    margin-top: 40px;            
+}
+
+.info-column {
+    display: flex;                
+    flex-direction: column;       
+    align-items: flex-start;      
+}
+
+.info-title {
+    font-size: 15px;             
+    color: white;              
+    margin-bottom: 5px;          
+}
+
+.info-value {
+    font-size:40px;             
+    color:  white;
+
+}
+.crew{
+    width: 500px;
+    height: 800px;
+    margin-top: 150px;
+    margin-left: 170px;
+    
+}
+.crew h2 {
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 0px;
+  
+    font-size: 50px;
+}
+.crew h1 {
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size:60px;
+}
+.crew p{
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+
+.p2{
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    
+
+}
+.anousheh-font{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-left:950px;
+    margin-top: -825px;
+    
+    
+}   
+.pagination {
+    display: flex;                     
+    justify-content:first baseline;           
+    margin-top: 60px;                 
+}
+
+.dot {
+    height: 15px;                     
+    width: 15px;                      
+    margin: 0 5px;                   
+    background-color: rgb(116, 114, 114);      
+    border-radius: 50%;               
+    display: inline-block;             
+    cursor: pointer;                   
+    transition: background-color 0.1s; 
+    margin: 0 10px;
+}
+
+.dot.active {
+    background-color: white;          
+}
+ 
+.numbered-list {
+    display: flex;                      
+    flex-direction: column;            
+    position: relative;                
+    margin-left:170px;             
+    margin-top:175px               
+}
+
+.number {
+    width: 90px;                       
+    height: 90px;                      
+    background-color: transparent;     
+    color: white;                      
+    border: 1px solid white;           
+    border-radius: 50%;                
+    display: flex;                     
+    justify-content: center;           
+    align-items: center;               
+               
+    transition: background-color 0.3s, color 0.3s; 
+    font-size: 35px;                   
+    margin-bottom: 40px;      
+}
+
+.number:hover {
+    background-color: white;           
+    color: black;                      
+}
+.technology{
+    width: 500px;
+    height: 800px;
+    margin-top: -410px;
+    margin-left: 375px;
+    
+}
+.technology h5 {
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.technology h1 {
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size:60px;
+}
+.technology p{
+    display: flex;
+    color: white;
+    left: 40px;
+    top: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.vehicle{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left:1100px;
+    margin-top: -825px;
+}
